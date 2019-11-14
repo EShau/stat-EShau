@@ -68,7 +68,7 @@ void printLastFileAccessTime(time_t time){
 
 int main(){
   struct stat buffer;
-  char * file_name = "stat_main.c";
+  char * file_name = "Makefile";
   printf("Attempting to analyze my own file %s...\n", file_name);
   int status = stat(file_name, &buffer);
   if (status == 0){

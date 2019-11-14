@@ -25,7 +25,7 @@ void printFileSize(off_t size){
     printf("%.3lf KB", size / thousand);
   }
   else{
-    printf("%d B", size);
+    printf("%ld B", size);
   }
   printf("\n");
 }

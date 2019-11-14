@@ -63,6 +63,7 @@ void printFilePermissions(mode_t mode){
 }
 
 void printLastFileAccessTime(time_t time){
+  printf("ok");
   printf("Time of Last Access: %s\n", ctime(&time));
 }
 
@@ -75,7 +76,6 @@ int main(){
     printf("Success!\n");
     printFileSize(buffer.st_size);
     printFilePermissions(buffer.st_mode);
-    printf("ok");
     printLastFileAccessTime(buffer.st_atime);
   }
   else{

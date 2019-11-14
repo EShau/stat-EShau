@@ -1,0 +1,35 @@
+A1-2,Easy-NYTimes,solved
+Elapsed time: ~0.007 seconds
+Number of times we have backtracked: 126
+
+A2-2,Medium-NYTimes,solved
+Elapsed time: ~0.827 seconds
+Number of times we have backtracked: 15504
+
+A3-2,Hard-NYTimes,solved
+Elapsed time: ~0.463 seconds
+Number of times we have backtracked: 6395
+
+A4-2,WebSudoku-Hard,solved
+Elapsed time: ~1.445 seconds
+Number of times we have backtracked: 21557
+
+A5-2,WebSudoku-Evil,solved
+Elapsed time: ~0.252 seconds
+Number of times we have backtracked: 4001
+
+A6-2,hardest-sudoku-telegraph,solved
+Elapsed time: ~1.608 seconds
+Number of times we have backtracked: 28337
+
+A7-2,sudokugarden.de/files/100sudoku2-en.pdf-Nr-200,solved
+Elapsed time: ~63.768 seconds
+Number of times we have backtracked: 1264194
+
+A8-2,sudokugarden.de/files/100sudoku2-en.pdf-Nr-50,solved
+Elapsed time: ~527.473 seconds
+Number of times we have backtracked: 10445922
+
+A9-2,sudokus.co.nf-via-Michael-Ye,solved
+Elapsed time: ~671.979 seconds
+Number of times we have backtracked: 14154503

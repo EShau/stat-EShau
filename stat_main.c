@@ -52,7 +52,7 @@ void makeMode(char mode, char modes[11]){
 
 void printFilePermissions(mode_t mode){
   int actual_permissions = mode & 511;
-  char modes[11];
+  char modes[20];
   strcat(modes,"-");
   int i;
   for (i = 2; i >= 0; i--){

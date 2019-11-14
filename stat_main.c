@@ -8,7 +8,7 @@
 void printFileSize(off_t size);
 void makeMode(char mode, char modes[11]);
 void printFilePermissions(mode_t mode);
-void printLastFileAccessTime(time_t time);
+void printLastFileAccessTime(const time_t time);
 
 void printFileSize(off_t size){
   printf("File size: ");
@@ -62,7 +62,7 @@ void printFilePermissions(mode_t mode){
   printf("File Permissions: %s\n", modes);
 }
 
-void printLastFileAccessTime(time_t time){
+void printLastFileAccessTime(const time_t time){
   printf("ok");
   printf("Time of Last Access: %s\n", ctime(&time));
 }

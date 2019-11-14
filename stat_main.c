@@ -58,12 +58,10 @@ void printFilePermissions(mode_t mode){
   for (i = 2; i >= 0; i--){
     makeMode(actual_permissions>>(i * 3) & 7, modes);
   }
-  printf("ok???");
   printf("File Permissions: %s\n", modes);
 }
 
 void printLastFileAccessTime(const time_t time){
-  printf("ok");
   printf("Time of Last Access: %s\n", ctime(&time));
 }
 

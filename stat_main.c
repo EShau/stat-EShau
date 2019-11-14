@@ -74,6 +74,7 @@ int main(){
     printf("Success!\n");
     printFileSize(buffer.st_size);
     printFilePermissions(buffer.st_mode);
+    print("ok");
     printLastFileAccessTime(buffer.st_atime);
   }
   else{

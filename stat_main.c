@@ -62,8 +62,7 @@ void printFilePermissions(mode_t mode){
 }
 
 void printLastFileAccessTime(time_t time){
-  struct tm * time_a = localtime(& time);
-  printf("Time of Last Access: %s\n", asctime(time_a));
+  printf("Time of Last Access: %s\n", ctime(&time));
 }
 
 int main(){

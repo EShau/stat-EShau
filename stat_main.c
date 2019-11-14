@@ -68,8 +68,9 @@ void printLastFileAccessTime(time_t time){
 
 int main(){
   struct stat buffer;
-  printf("Attempting to analyze my own file Sudoku-Naive-Times.txt...\n");
-  int status = stat("Sudoku-Naive-Times.txt", &buffer);
+  char * file_name = "stat_main.c";
+  printf("Attempting to analyze my own file %s...\n", file_name);
+  int status = stat(file_name, &buffer);
   if (status == 0){
     printf("Success!\n");
     printFileSize(buffer.st_size);
